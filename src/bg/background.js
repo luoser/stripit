@@ -2,9 +2,14 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   chrome.tabs.executeScript({
-    file: 'js/jquery/jquery.min.js',
+    file: 'js/jquery/jquery.min.js'},
+
+   function(){
+    chrome.tabs.executeScript({
+        code: "$('a').contents().unwrap();"
+      });
+
+
   });
-  chrome.tabs.executeScript({
-    code: "$('a').contents().unwrap();"
-  });
+
 });
