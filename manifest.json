@@ -1,7 +1,7 @@
 {
   "name": "s t r i p p e r",
   "short_name": "strip yo links",
-  "description": "This extension was strips any page of its links.",
+  "description": "This extension strips any page of its links.",
   "version": "2.0",
   "permissions": [
     "activeTab"
