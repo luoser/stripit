@@ -1,10 +1,37 @@
 {
   "name": "s t r i p p e r",
+  "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension strips any page of its links.",
-  "version": "1.0",
-  "background": {
-    "scripts": ["sample.js"]
+  "description": "This extension was strips any page of its links.",
+  "homepage_url": "http://buzzfeed.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
-  "permissions": ["contextMenus"]
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options_custom/index.html",
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "cookies"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
 }
