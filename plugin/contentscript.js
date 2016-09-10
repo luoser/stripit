@@ -1,1 +1,0 @@
-# This script can read the web page and make changes to it.

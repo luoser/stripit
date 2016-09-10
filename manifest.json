@@ -3,7 +3,6 @@
   "short_name": "strip yo links",
   "description": "This extension was strips any page of its links.",
   "version": "2.0",
-  "default_locale": "en",
   "permissions": [
     "activeTab"
   ],
