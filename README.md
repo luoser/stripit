@@ -1,1 +1,1 @@
-# linkless
+# stripper

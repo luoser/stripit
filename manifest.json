@@ -1,37 +1,7 @@
-// {
-//   "name": "s t r i p p e r",
-//   "short_name": "strip yo links",
-//   "description": "This extension was strips any page of its links.",
-//   "version": "0.0.1",
-//   "manifest_version": 2,
-//   "default_locale": "en",
-//   "background": {
-//     "scripts": ["src/bg/background.js"],
-//     "persistent": false
-//   },
-//   "browser_action": {
-//     "default_icon": "design/stripper-logo-square-icon.png",
-//     "default_title": "Strip me"
-//   },
-
-//   "permissions": [
-//     "activeTab"
-//   ]
-//   // "content_scripts": [
-//   //   {
-//   //     "matches": [
-//   //       "https://www.google.com/*"
-//   //     ],
-//   //     "js": [
-//   //       "src/inject/inject.js"
-//   //     ]
-//   //   }
-//   // ]
-// }
-
 {
-  "name": "Page Redder",
-  "description": "Make the current page red",
+  "name": "s t r i p p e r",
+  "short_name": "strip yo links",
+  "description": "This extension was strips any page of its links.",
   "version": "2.0",
   "default_locale": "en",
   "permissions": [
@@ -45,18 +15,5 @@
     "default_icon": "design/stripper-logo-square-icon.png",
     "default_title": "Strip me"
   },
-
-  // "content_scripts": [
-  //   {
-  //     "matches": [
-  //       "https://www.google.com/*"
-  //     ],
-  //     "js": [
-  //       "js/jquery/jquery.js"
-  //     ]
-  //   }
-  // ],
-
-
   "manifest_version": 2
 }
