@@ -8,14 +8,8 @@ Use Stripper today to experience link-free browsing on any web page and take bac
 
 
 
-
-
-
-: for the internet weary
-
-
-
 DEMO
+
 start reading https://en.wikipedia.org/wiki/Puppy
 click 'rat'
 scroll down to dead rat
@@ -23,6 +17,7 @@ click 'bubonic plague'
 scroll down to horrific picture
 We'll never get back! We don't want to see a guy with a rat cold
 Why did Wikipedia do this to us?
+
 
 show webpage, introduce Stripper
 
@@ -41,8 +36,23 @@ but where are the links
 don't worry, we save them for you in a text file so you can type them in on your terms
 
 
+here is our download link
+
+
 premium feature keeps you always in Stripper mode
 
+
+
+
+
+
+
+
+
+
+
+
+: for the internet weary
 
 
 
