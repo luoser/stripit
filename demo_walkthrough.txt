@@ -8,7 +8,8 @@ those links need to cut it out
 
 
 
-: for old people by old people
+: for old people by old people vibe
+: for the internet weary
 
 
 DEMO
@@ -91,6 +92,31 @@ demonstrate stored list of URLs
 
 
 demonstrate link saving in incognito mode
+
+
+
+
+
+
+
+
+
+
+
+
+TODO:
+
+- make it remove buttons with links
+- finalize website
+- work on pitch
+
+
+
+
+
+
+
+
 
 
 
