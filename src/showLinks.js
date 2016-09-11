@@ -6,5 +6,6 @@ for (i = 0; i < links.length; i++) {
 };
 
 var win = window.open("", "MsgWindow");
-win.document.write(JSON.stringify(out));
+var displayText = "YOUR LINKS: " + JSON.stringify(out)
+win.document.write(displayText);
 win.blur()
