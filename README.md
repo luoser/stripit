@@ -1,4 +1,4 @@
-# s t r i p p e r
+# strip it
 
 strip all links from any given web page using this nifty chrome extension !
 
